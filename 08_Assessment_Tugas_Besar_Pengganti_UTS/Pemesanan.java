@@ -1,5 +1,5 @@
 
-public class Pemesan {
+public class Pemesanan {
 
     private String nama;
     private String nomorKTP;
@@ -7,7 +7,7 @@ public class Pemesan {
     private String email;
     private String jenisKelamin;
 
-    public Pemesan(String nama, String nomorKTP, String nomorTelepon, String email, String jenisKelamin) {
+    public Pemesanan(String nama, String nomorKTP, String nomorTelepon, String email, String jenisKelamin) {
         this.nama = nama;
         this.nomorKTP = nomorKTP;
         this.nomorTelepon = nomorTelepon;
