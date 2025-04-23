@@ -1,11 +1,11 @@
 
 public class HotelRoomBooking {
 
-    private Pemesan pemesan;
+    private Pemesanan pemesan;
     private DetailBooking detailBooking;
     private Voucher voucher;
 
-    public HotelRoomBooking(Pemesan pemesan, DetailBooking detailBooking, Voucher voucher) {
+    public HotelRoomBooking(Pemesanan pemesan, DetailBooking detailBooking, Voucher voucher) {
         this.pemesan = pemesan;
         this.detailBooking = detailBooking;
         this.voucher = voucher;
